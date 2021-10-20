@@ -1,0 +1,130 @@
+{
+  "contractName": "simpleContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/simpleContract.sol\":\"simpleContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/simpleContract.sol\":{\"keccak256\":\"0x844ea03cf6a4e8a2e66f2856cf8092c94d31ed6ea48fe3e3cfc9bcece2083cfa\",\"urls\":[\"bzz-raw://94a5e1f3eb4d67ea846c945e5f533afa6af015a396ec1d19113a5ab4b9ba01ba\",\"dweb:/ipfs/QmZdLSihxhm1ELQ3vJRdzRq6xGXg3UjvKTiF7S9Q2CBmQn\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582046fd5ee4e7ab1bc13cfaed525b8544a816497e2eac0b08522c1f390870b45ce064736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582046fd5ee4e7ab1bc13cfaed525b8544a816497e2eac0b08522c1f390870b45ce064736f6c63430005100032",
+  "sourceMap": "69:30:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;69:30:1;;;;;;;",
+  "deployedSourceMap": "69:30:1:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract simpleContract {\r\n\r\n}",
+  "sourcePath": "C:\\Users\\arulj\\Desktop\\Dapp\\contracts\\simpleContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/simpleContract.sol",
+    "exportedSymbols": {
+      "simpleContract": [
+        35
+      ]
+    },
+    "id": 36,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "simpleContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "69:30:1"
+      }
+    ],
+    "src": "33:66:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/simpleContract.sol",
+      "exportedSymbols": {
+        "simpleContract": [
+          35
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 34,
+        "name": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            35
+          ],
+          "name": "simpleContract",
+          "nodes": [
+            null
+          ],
+          "scope": 36
+        },
+        "id": 35,
+        "name": "ContractDefinition",
+        "src": "69:30:1"
+      }
+    ],
+    "id": 36,
+    "name": "SourceUnit",
+    "src": "33:66:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xF19Aef1e7D3425B81d3Bf7D7b6720C6795DFF165",
+      "transactionHash": "0x296b521ce4a253c4a3ff9646018ab1507a03377451768874ef7eeaa9303cce4e"
+    }
+  },
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-10-20T17:13:17.851Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
