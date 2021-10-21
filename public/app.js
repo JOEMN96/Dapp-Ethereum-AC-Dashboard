@@ -1,6 +1,6 @@
 const contractAbi = [];
-const contractAddress = '0xF19Aef1e7D3425B81d3Bf7D7b6720C6795DFF165';
-const web3 = new Web3(Web3.givenProvider || 'http://localhost:8545');
+const contractAddress = '0xE3dA89Fc1dC69c6D156ebCc66a639365e96d4a8e';
+const web3 = new Web3(Web3.currentProvider || 'http://localhost:9545');
 
 const simpleContract = new web3.eth.Contract(contractAbi, contractAddress);
 
