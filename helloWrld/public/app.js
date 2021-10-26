@@ -26,7 +26,3 @@ helloWorldContract.methods
   .hello()
   .call()
   .then((res) => console.log(res));
-
-console.log();
-
-web3.eth.getAccounts().then((data) => console.log(data));

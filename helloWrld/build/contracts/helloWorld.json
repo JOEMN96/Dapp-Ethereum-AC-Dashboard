@@ -23,7 +23,7 @@
   "sourceMap": "70:125:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;70:125:1;;;;;;;",
   "deployedSourceMap": "70:125:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;70:125:1;;;;;;;;;;;;;;;;;;;102:90;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;102:90:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;140:13;165:20;;;;;;;;;;;;;;;;;;;102:90;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >0.4.22 <0.9.0;\r\n\r\n\r\ncontract helloWorld {\r\n    \r\n   function hello() public pure  returns(string memory) {\r\n       return \"hello World\";\r\n   }\r\n}\r\n\r\n\r\n// The Ethereum Virtual Machine has three areas where it can store items.\r\n\r\n// The first is “storage”, where all the contract state variables reside. Every contract has its own storage and it is persistent between function calls and quite expensive to use.\r\n\r\n// The second is “memory”, this is used to hold temporary values. It is erased between (external) function calls and is cheaper to use.\r\n\r\n// The third one is the stack, which is used to hold small local variables. It is almost free to use, but can only hold a limited amount of values.",
-  "sourcePath": "C:\\Users\\arulj\\Desktop\\Dapp\\helloWrld\\contracts\\helloWorld.sol",
+  "sourcePath": "C:\\Users\\arulj\\Desktop\\Dapp\\hellowrld\\contracts\\helloWorld.sol",
   "ast": {
     "absolutePath": "project:/contracts/helloWorld.sol",
     "exportedSymbols": {
@@ -318,7 +318,7 @@
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-10-25T17:16:04.349Z",
+  "updatedAt": "2021-10-25T17:32:34.190Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
