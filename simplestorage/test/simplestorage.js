@@ -6,10 +6,17 @@ contract('simplestorage', async () => {
     // console.log(contract);
     assert(contract.address != '');
   });
-  it('Return Empty String', async () => {
+
+  it('It Should return Initial Value', async () => {
     let contract = await simplestorage.deployed();
-    console.log();
     let fnCallData = await contract.data();
     assert(fnCallData == 'Inital Value');
+  });
+
+  it('adding data to smart contracts storage', async () => {
+    let contract = await simplestorage.deployed();
+    await contract.setData('hello World');
+    let res = await contract.data();
+    assert(res == 'hello World');
   });
 });
