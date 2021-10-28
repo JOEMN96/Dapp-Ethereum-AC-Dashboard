@@ -19,4 +19,11 @@ contract('simplestorage', async () => {
     let res = await contract.data();
     assert(res == 'hello World');
   });
+
+  it('Checking Fn', async () => {
+    let contract = await simplestorage.deployed();
+    await contract.setData('new Data');
+    let newData = await contract.getData();
+    assert(newData == 'new Data');
+  });
 });
