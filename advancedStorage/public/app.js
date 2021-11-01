@@ -1,5 +1,3 @@
-import Web3 from 'web3';
-
 const ABI = [
   {
     constant: true,
@@ -89,26 +87,11 @@ const ABI = [
     type: 'function',
   },
 ];
-const address = '0x5Dcf03332894afdEF62CeC027F592Da46AafC8eb';
 
-const web3 = new Web3('ws://localhost:9545');
-let accounts = [];
-web3.eth.getAccounts().then((acc) => (accounts = acc));
+const web3 = new Web3(Web3.currntProvider || 'ws://localhost:9545');
 
-let contract = new web3.eth.Contract(ABI, address);
-console.log(contract);
+const addresss = '';
 
-let length = document.querySelector('.getlength');
-let dis = document.querySelector('h2');
-let getArr = document.querySelector('.getArr');
+let strorageContract = new web3.eth.Contract(ABI, addresss);
 
-length.addEventListener('click', async () => {
-  let res = await contract.methods.getLength().call();
-  dis.innerHTML = res;
-});
-
-getArr.addEventListener('click', async () => {
-  let res = await contract.methods.getAll().call();
-
-  console.log(res);
-});
+document.addEventListener('DOMContentLoaded', async () => {});
