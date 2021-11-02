@@ -46,7 +46,7 @@ const ABI = [
   },
 ];
 
-// const addresss = '0xF19Aef1e7D3425B81d3Bf7D7b6720C6795DFF165';
+const addresss = '0xF19Aef1e7D3425B81d3Bf7D7b6720C6795DFF165';
 
 // let strorageContract = new web3.eth.Contract(ABI, addresss);
 
